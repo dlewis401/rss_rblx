@@ -1,0 +1,928 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@media screen and (min-width: 300px)  {
+    .topNav {
+        overflow: hidden;
+        position: relative;
+        display: block;
+        color: #FFBF69;
+        font-size: 1em;
+        text-align: center;
+        font-family: Lato;
+    }
+
+    #navigationMenu {
+        display: none;
+    }
+
+    #navigationMenu a {
+        color: #FFBF69;
+        text-decoration: none;
+        font-family: Roboto;
+        text-align: center;
+        display: block;
+        padding: 0.5em;
+        font-size: 1.2em;
+    }
+
+    a.icon {
+        color: #FFBF69;
+        display: block;
+        position: absolute;
+        top: 2.4em;
+        right: 6em;
+ }
+
+    #navigationMenu a:hover {
+        background-color: #FFBF69;
+        color: #FFFF;
+    }
+
+    #photoSlider img {
+        margin: 0.5em;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 1em; 
+    }
+
+    #sample-calendar {
+        background-color: #FFBF69;
+        color: #FFFF;
+        margin-top: 0.5em;
+        width: 100%;
+        display: inline-block;
+        font-size: 1.2em;
+    }
+
+    .headteachersWelcome img {
+        width: 50%;
+    }
+
+    .headteachersWelcome {
+        width: 100%;
+        font-size: 1.5em;
+        text-align: center;
+        font-family: Roboto;
+        background-color: #FFBF69;
+        color: #FFFF;
+        margin-top: 0.5em;
+        padding: 0.1em;
+        border-radius: 1em;
+    }
+
+    .News img {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        border-radius: 1em;
+        margin-top: 0.5em;
+    }
+
+    .termDates {
+        background-color: #FFBF69;
+        color: #FFFF;
+        font-family: Roboto;
+        border-radius: 1em;
+    }
+
+    .termDates p {
+        margin: 0.5em;
+        padding: 0.2em;
+    }
+
+    .termDates h1 {
+        font-family: Lato;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    #navigationMenu1 {
+        display: none;
+    }
+
+    #footer {
+        clear: both;
+        margin-top: 1em;
+        background-color: black;
+        color: #FFFF;
+    }
+
+    #footer button {
+        background-color: #FFBF69;
+        color: #FFFF;
+        border-radius: 0.5em;
+        font-size: 1.2em;
+        padding: 0.3em;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #footer button a {
+        color: #FFFF;
+        text-decoration: none;
+        font-family: Roboto;
+    }
+
+    #footerMenu a {
+        color: #ffff;
+        text-decoration: none;
+        font-family: Roboto;
+        display: block;
+        text-align: center;
+        font-size: 1.2em;
+        padding: 0.2em;
+    }
+
+    #copyrightStuff {
+        color: #FFFF;
+        display: block;
+        font-size: 1.2em;
+        text-align: center;
+        font-family: Roboto;
+    }
+
+    /* ABOUT RSS */
+    .pageInfo {
+        font-family: Lato;
+        margin: 1em;
+        font-size: 1em;
+    }
+
+    .RSS {
+       font-family: Roboto;
+       margin: 1em;
+       font-size: 1em; 
+    }
+
+    .Title {
+        font-family: Lato;
+        margin: 1em;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    /* RSS SLT */
+    #AWilson {
+        margin: 1em;
+        font-family: Roboto;
+        text-align: center;
+    }
+
+    #JWearing {
+        margin: 1em;
+        font-family: Roboto;
+        text-align: center;
+    }
+
+    #AKlobuchar {
+        margin: 1em;
+        font-family: Roboto;
+        text-align: center;
+        width: 100%;
+    }
+
+    #CDonnelly {
+        margin: 1em;
+        font-family: Roboto;
+        text-align: center;
+    }
+
+    #IReeve {
+        margin: 1em;
+        font-family: Roboto;
+        text-align: center;
+    }
+
+    #AHarlow {
+        margin: 1em;
+        font-family: Roboto;
+        text-align: center;
+    }
+
+    #BLSpencer {
+        margin: 1em;
+        font-family: Roboto;
+        text-align: center;
+    }
+
+    #StaffLink {
+        margin: 1em;
+        font-family: Roboto;
+       text-align: center;
+        clear: both;
+    }
+
+    /* Contact Page */
+    #officeEmail {
+        font-family: Roboto;
+        font-size: 1em;
+       text-align: center;
+    }
+
+    /* STAFF VACANCIES */
+    #StaffTeam img {
+        display: block;
+        width: 100%;
+    }
+
+    #welcomeStaff {
+        font-size: 1em;
+        font-family: Roboto;
+        text-align: center;
+    }
+
+    #table table {
+        width: 100%;
+        font-family: roboto;
+        text-align: center;
+    }
+
+    th, td {
+        padding: 10px;
+      }
+
+      table, th, td {
+        border: 2px solid black;
+      }
+
+      th {
+          background-color: #FFBF69;
+      }
+
+      #linkApp {
+          margin: 1em;
+          font-size: 1em;
+          font-family: Roboto;
+      }
+
+      #closed {
+          font-family: Roboto;
+          font-size: 1.5em;
+          text-align: center;
+      }
+   
+   
+  
+}
+@media screen and (min-width: 1024px) { 
+    .container {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .topNav {
+        display: block;
+    }
+
+    #navigationMenu {
+        display: none;
+    }
+
+    #navigationMenu a {
+        color: #FFBF69;
+        text-decoration: none;
+        font-family: Roboto;
+        text-align: center;
+        display: block;
+        padding: 0.5em;
+        font-size: 1.2em;
+    }
+
+    a.icon {
+        color: #FFBF69;
+        display: block;
+        position: absolute;
+        top: 1.4em;
+        right: 18em;
+        font-size: 1.5em;
+ }
+
+    #navigationMenu a:hover {
+        background-color: #FFBF69;
+        color: #FFFF;
+    }
+
+    #photoSlider img {
+        margin: 0.5em;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 1em; 
+    }
+
+    #sample-calendar {
+        background-color: #FFBF69;
+        color: #FFFF;
+        margin-top: 0.5em;
+        width: 100%;
+        display: inline-block;
+        font-size: 1.2em;
+    }
+
+    .headteachersWelcome img {
+        width: 10%;
+        float: left;
+        margin-left: 0.3em;
+    }
+
+    .headteachersWelcome {
+        width: 100%;
+        font-size: 1.5em;
+        text-align: center;
+        font-family: Roboto;
+        background-color: #FFBF69;
+        color: #FFFF;
+        margin-top: 0.5em;
+        padding: 0.1em;
+        border-radius: 1em;
+    }
+
+    .News img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        border-radius: 1em;
+        margin-top: 0.5em;
+        float: left;
+        margin-bottom: 1em;
+    }
+
+    .termDates {
+        margin-top: 0.5em;
+        background-color: #FFBF69;
+        color: #FFFF;
+        font-family: Roboto;
+        border-radius: 1em;
+        width: 45%;
+        float: right;
+    }
+
+    .termDates p {
+        margin: 0.5em;
+        padding: 0.2em;
+    }
+
+    .termDates h1 {
+        font-family: Lato;
+        font-size: 1.5em;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    #footer {
+        clear: both;
+        background-color: black;
+        color: #FFFF;
+    }
+
+    #footer button {
+        background-color: #FFBF69;
+        color: #FFFF;
+        border-radius: 0.5em;
+        font-size: 1.2em;
+        padding: 0.3em;
+        display: block;
+        margin: 0 auto;
+    }
+
+    #footer button a {
+        color: #FFFF;
+        text-decoration: none;
+        font-family: Roboto;
+    }
+
+    #footerMenu a {
+        color: #ffff;
+        text-decoration: none;
+        font-family: Roboto;
+        display: block;
+        text-align: center;
+        font-size: 1.2em;
+        padding: 0.2em;
+    }
+
+    #copyrightStuff {
+        color: #FFFF;
+        display: block;
+        font-size: 1.2em;
+        text-align: center;
+        font-family: Roboto;
+    }
+
+    /* ABOUT RSS */
+    .pageInfo {
+        font-family: Lato;
+        margin: 1em;
+        font-size: 1.5em;
+    }
+
+    .RSS {
+       font-family: Roboto;
+       margin: 1em;
+       font-size: 1.5em; 
+    }
+
+    .Title {
+        font-family: Lato;
+        margin: 1em;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+
+    #StaffLink {
+        margin: 1em;
+        font-family: Roboto;
+       text-align: center;
+       font-size: 1.5em;
+        clear: both;
+    }
+
+    /* Contact Page */
+    #officeEmail {
+        font-family: Roboto;
+        font-size: 1.5em;
+       text-align: center;
+    }
+
+     /* STAFF VACANCIES */
+     #StaffTeam img {
+        display: block;
+        width: 50%;
+    }
+
+    #welcomeStaff {
+        font-size: 1em;
+        font-family: Roboto;
+        text-align: center;
+    }
+
+    #table table {
+        width: 100%;
+        font-family: roboto;
+        text-align: center;
+    }
+
+    th, td {
+        padding: 10px;
+      }
+
+      table, th, td {
+        border: 2px solid black;
+      }
+
+      th {
+          background-color: #FFBF69;
+      }
+
+      #linkApp {
+          margin: 1em;
+          font-size: 1em;
+          font-family: Roboto;
+      }
+
+     
+    
+
+}
+
+@media screen and (min-width: 1334px ) and (min-width: 1980) {
+    .container {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .topNav {
+        display: block;
+    }
+
+    #navigationMenu {
+        display: none;
+    }
+
+    #navigationMenu a {
+        color: #FFBF69;
+        text-decoration: none;
+        font-family: Roboto;
+        text-align: center;
+        display: block;
+        padding: 0.5em;
+        font-size: 1.5em;
+    }
+
+    a.icon {
+        color: #FFBF69;
+        display: block;
+        position: absolute;
+        top: 1.4em;
+        right: 18em;
+        font-size: 1.5em;
+ }
+
+    #navigationMenu a:hover {
+        background-color: #FFBF69;
+        color: #FFFF;
+    }
+
+    #photoSlider img {
+        margin: 0.5em;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 1em; 
+    }
+
+    #sample-calendar {
+        background-color: #FFBF69;
+        color: #FFFF;
+        margin-top: 0.5em;
+        width: 100%;
+        display: inline-block;
+        font-size: 1.2em;
+    }
+
+    .headteachersWelcome img {
+        width: 10%;
+        float: left;
+        margin-left: 0.3em;
+    }
+
+    .headteachersWelcome {
+        width: 100%;
+        font-size: 1.5em;
+        text-align: center;
+        font-family: Roboto;
+        background-color: #FFBF69;
+        color: #FFFF;
+        margin-top: 0.5em;
+        padding: 0.1em;
+        border-radius: 1em;
+    }
+
+    .News img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        border-radius: 1em;
+        margin-top: 0.5em;
+        float: left;
+        margin-bottom: 1em;
+    }
+
+    .termDates {
+        margin-top: 0.5em;
+        background-color: #FFBF69;
+        color: #FFFF;
+        font-family: Roboto;
+        border-radius: 1em;
+        width: 45%;
+        float: right;
+        margin-bottom: 1em;
+    }
+
+    .termDates p {
+        margin: 0.5em;
+        padding: 0.2em;
+        font-size: 1.7em;
+    }
+
+    .termDates h1 {
+        font-family: Lato;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+     /* STAFF VACANCIES */
+     #StaffTeam img {
+        display: block;
+        width: 50%;
+        margin: 0em;
+        float: left;
+    }
+
+    #welcomeStaff {
+        font-size: 1em;
+        font-family: Roboto;
+    }
+
+    #table table {
+        width: 50%;
+        font-family: roboto;
+        text-align: center;
+    }
+
+    th, td {
+        padding: 10px;
+      }
+
+      table, th, td {
+        border: 2px solid black;
+      }
+
+      th {
+          background-color: #FFBF69;
+      }
+
+      #linkApp {
+          margin: 1em;
+          font-size: 1em;
+          font-family: Roboto;
+      }
+
+    
+ }
+
+@media screen and (min-width: 1440px) and (max-width: 1679px) {
+    .container {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .topNav {
+        display: block;
+    }
+
+    #navigationMenu {
+        display: none;
+    }
+
+    #navigationMenu a {
+        color: #FFBF69;
+        text-decoration: none;
+        font-family: Roboto;
+        text-align: center;
+        display: block;
+        padding: 0.5em;
+        font-size: 1.5em;
+    }
+
+    a.icon {
+        color: #FFBF69;
+        display: block;
+        position: absolute;
+        top: 1.4em;
+        right: 18em;
+        font-size: 1.5em;
+ }
+
+    #navigationMenu a:hover {
+        background-color: #FFBF69;
+        color: #FFFF;
+    }
+
+    #photoSlider img {
+        margin: 0.5em;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 1em; 
+    }
+
+    #sample-calendar {
+        background-color: #FFBF69;
+        color: #FFFF;
+        margin-top: 0.5em;
+        width: 100%;
+        display: inline-block;
+        font-size: 1.2em;
+    }
+
+    .headteachersWelcome img {
+        width: 10%;
+        float: left;
+        margin-left: 0.3em;
+    }
+
+    .headteachersWelcome {
+        width: 100%;
+        font-size: 1.5em;
+        text-align: center;
+        font-family: Roboto;
+        background-color: #FFBF69;
+        color: #FFFF;
+        margin-top: 0.5em;
+        padding: 0.1em;
+        border-radius: 1em;
+    }
+
+    .News img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        border-radius: 1em;
+        margin-top: 0.5em;
+        float: left;
+        margin-bottom: 1em;
+    }
+
+    .termDates {
+        margin-top: 0.5em;
+        background-color: #FFBF69;
+        color: #FFFF;
+        font-family: Roboto;
+        border-radius: 1em;
+        width: 45%;
+        float: right;
+        margin-bottom: 1em;
+    }
+
+    .termDates p {
+        margin: 0.5em;
+        padding: 0.2em;
+        font-size: 1.7em;
+    }
+
+    .termDates h1 {
+        font-family: Lato;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    
+
+    /* STAFF VACANCIES */
+    #StaffTeam img {
+        display: block;
+        width: 50%;
+        margin: 0em;
+        float: left;
+    }
+
+    #welcomeStaff {
+        font-size: 1em;
+        font-family: Roboto;
+    }
+
+    #table table {
+        width: 50%;
+        font-family: roboto;
+        text-align: center;
+    }
+
+    th, td {
+        padding: 10px;
+      }
+
+      table, th, td {
+        border: 2px solid black;
+      }
+
+      th {
+          background-color: #FFBF69;
+      }
+
+      #linkApp {
+          margin: 1em;
+          font-size: 1em;
+          font-family: Roboto;
+      }
+
+
+  
+ }
+
+@media screen and (min-width: 1680px) and (max-width: 2560px) { 
+    .container {
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .topNav {
+        display: block;
+    }
+
+    #navigationMenu {
+        display: none;
+    }
+
+    #navigationMenu a {
+        color: #FFBF69;
+        text-decoration: none;
+        font-family: Roboto;
+        text-align: center;
+        display: block;
+        padding: 0.5em;
+        font-size: 1.5em;
+    }
+
+    a.icon {
+        color: #FFBF69;
+        display: block;
+        position: absolute;
+        top: 1.4em;
+        right: 18em;
+        font-size: 1.5em;
+ }
+
+    #navigationMenu a:hover {
+        background-color: #FFBF69;
+        color: #FFFF;
+    }
+
+    #photoSlider img {
+        margin: 0.5em;
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 1em; 
+    }
+
+    #sample-calendar {
+        background-color: #FFBF69;
+        color: #FFFF;
+        margin-top: 0.5em;
+        width: 100%;
+        display: inline-block;
+        font-size: 1.2em;
+    }
+
+    .headteachersWelcome img {
+        width: 10%;
+        float: left;
+        margin-left: 0.3em;
+    }
+
+    .headteachersWelcome {
+        width: 100%;
+        font-size: 1.5em;
+        text-align: center;
+        font-family: Roboto;
+        background-color: #FFBF69;
+        color: #FFFF;
+        margin-top: 0.5em;
+        padding: 0.1em;
+        border-radius: 1em;
+    }
+
+    .News img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+        border-radius: 1em;
+        margin-top: 0.5em;
+        float: left;
+        margin-bottom: 1em;
+    }
+
+    .termDates {
+        margin-top: 0.5em;
+        background-color: #FFBF69;
+        color: #FFFF;
+        font-family: Roboto;
+        border-radius: 1em;
+        width: 45%;
+        float: right;
+        margin-bottom: 1em;
+    }
+
+    .termDates p {
+        margin: 0.5em;
+        padding: 0.2em;
+        font-size: 1.7em;
+    }
+
+    .termDates h1 {
+        font-family: Lato;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    /* STAFF VACANCIES */
+    #StaffTeam img {
+        display: block;
+        width: 50%;
+        margin: 0em;
+        float: left;
+    }
+
+    #welcomeStaff {
+        font-size: 1em;
+        font-family: Roboto;
+    }
+
+    #table table {
+        width: 50%;
+        font-family: roboto;
+        text-align: center;
+    }
+
+    th, td {
+        padding: 10px;
+      }
+
+      table, th, td {
+        border: 2px solid black;
+      }
+
+      th {
+          background-color: #FFBF69;
+      }
+
+      #linkApp {
+          margin: 1em;
+          font-size: 1em;
+          font-family: Roboto;
+      }
+}
